@@ -1,0 +1,30 @@
+{
+  "name": "siwi-axel",
+  "version": "1.0.0",
+  "description": "siwi npm start",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siwilizhao/siwi-npm-start.git"
+  },
+  "keywords": ["siwi","siwilizhao"],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siwilizhao/siwi-npm-start/issues"
+  },
+  "homepage": "https://github.com/siwilizhao/siwi-npm-start#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
